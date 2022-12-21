@@ -1,7 +1,7 @@
 <?php
 ob_start();
 session_start();
-require "DB_conn.php";
+require "db_connection.php";
 
 ?>
 

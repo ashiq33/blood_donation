@@ -5,7 +5,7 @@ ob_start();
 session_start();
 
 // Include the database connection file
-require "DB_conn.php";
+require "db_connection.php";
 
 // Check if all required POST variables have been set
 if (isset($_POST['fullname']) && isset($_POST['gender']) && isset($_POST['dob']) && isset($_POST['bloodgroup']) && isset($_POST['mobile']) && isset($_POST['email']) && isset($_POST['state']) && isset($_POST['town']) && isset($_POST['username']) && isset($_POST['password'])) {

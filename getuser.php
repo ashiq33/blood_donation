@@ -38,7 +38,7 @@
 	<?php
 
 // Include the database connection file
-require "DB_conn.php";
+require "db_connection.php";
 
 // Get the value of the "q" parameter in the GET request
 $q = $_GET["q"];
