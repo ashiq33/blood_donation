@@ -41,7 +41,6 @@ form select {
     height: 50px;
     *width: 30%;
     *background: rgba(0, 0, 0, 0.5);
-    -webkit-appearance: none;
     box-sizing: border-box;
     display: inline-block;
     border: 1px solid #ccc;
